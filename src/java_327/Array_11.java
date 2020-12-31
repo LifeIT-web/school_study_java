@@ -1,0 +1,14 @@
+public class Array_11 
+{
+	public static void main(String[] args) // argument = 매개변수!! 그 자체 의미를 변수로 정한 것
+	{
+		System.out.println("매개 변수의 갯수 : " + args.length); 
+		
+		for (int i = 0; i < args.length ; i++ )
+		{
+			System.out.println("args[" + i  + "]  = \"" + args[i] + "\"");
+		}
+
+		System.out.println("Lee jiyoon");
+	}
+}

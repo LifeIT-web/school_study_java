@@ -1,0 +1,21 @@
+public class If_5 
+{
+	public static void main(String[] args) 
+	{
+
+		int score = 0;
+
+		for (int i =1; i <= 100 ;i++ )
+		{
+			score = (int)(Math.random() * 75) - 75; // -75~-1숫자가 나온다.
+			
+			System.out.print("\t" + score);
+
+			if (i  % 10 == 0)
+			{
+				System.out.println();
+			}
+		}
+		System.out.println("Lee jiyoon");
+	}
+}

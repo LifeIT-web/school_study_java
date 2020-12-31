@@ -1,0 +1,18 @@
+Byte Stream (바이트 스트림)
+
+: 바이트 스트림은 데이터를 8비트 단위로 읽거나 씀 (1바이트)
+
+
+		InputStream						
+			|								
+ FileInputStream	FilterInputStream	
+ 						|
+ 		BufferedInputStream  DataInputStream
+
+-----------------------------------------------------
+
+		OutputStream						
+			|								
+ FileOutputStream	FilterOutputStream	
+ 						|
+ 		BufferedOutputStream  DataOutputStream

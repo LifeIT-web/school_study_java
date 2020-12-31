@@ -1,0 +1,23 @@
+public class GuGuDan_5 
+{
+	public static void main(String[] args) 
+	{
+		int i = 2, j =0;
+
+		do
+		{
+			do
+			{
+				j++;
+				System.out.println(i + "*" + j + "=" + (i*j));
+					
+			}
+			while (j < 9);
+			i++;
+			j =1;
+			
+		}
+		while (i <10);
+		System.out.println("Lee jiyoon");
+	}
+}

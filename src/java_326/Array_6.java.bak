@@ -1,0 +1,27 @@
+public class Array_6 
+{
+	public static void main(String[] args) 
+	{
+		int [] score = {65, 45, 89, 32, 53, 99, 76, 39};
+
+		int max = score[0]; //비교대상의 초기값을 뭘 정해야하나!!(효율성을 보기 위해)  -- > 배열 속의 값을 넣어라!!
+		int min = score[0];//score[0] 하면
+
+		for (int i = 0; i < score.length ;i++ ) // i = 1;로 해야 효율!!
+		{
+			
+			if (score[i] > max)
+			{
+				max = score[i];
+			}
+
+			if(score[i] < min)  // else if는 안됨 이유는 여러프로그램 돌릴때 에러가 나올 수 있는 문이다., if에 비해 효율 x
+			{
+				min  = score[i];
+			}
+		}
+		
+		System.out.println("가장 큰 값 : " + max );
+		System.out.println("가장 작은 값 : " + min);
+	}
+}
